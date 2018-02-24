@@ -4,9 +4,9 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_store_review'
   s.version          = '0.0.1'
-  s.summary          = 'Flutter wrap AppStore Review API'
+  s.summary          = 'Wrap AppStore Review API for Flutter'
   s.description      = <<-DESC
-Flutter wrap AppStore Review API
+Wrap AppStore Review API for Flutter
                        DESC
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }

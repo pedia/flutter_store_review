@@ -1,10 +1,13 @@
-# flutter_store_review
+# Flutter AppStore Review
 
-Flutter wrap AppStore Review API
+Wrap [AppStore Review](https://developer.apple.com/documentation/storekit/recommendations_and_reviews) API for Flutter, only available in iOS.
 
 ## Getting Started
 
-For help getting started with Flutter, view our online
-[documentation](http://flutter.io/).
+```dart
+import 'package:flutter_store_review/flutter_store_review.dart';
 
-For help on editing plugin code, view the [documentation](https://flutter.io/platform-plugins/#edit-code).
+FlutterStoreReview.requestReview();
+```
+
+![](demo.png)

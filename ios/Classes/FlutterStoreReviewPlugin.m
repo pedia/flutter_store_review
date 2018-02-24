@@ -1,3 +1,4 @@
+#import <StoreKit/StoreKit.h>
 #import "FlutterStoreReviewPlugin.h"
 
 @implementation FlutterStoreReviewPlugin
@@ -10,8 +11,9 @@
 }
 
 - (void)handleMethodCall:(FlutterMethodCall*)call result:(FlutterResult)result {
-  if ([@"getPlatformVersion" isEqualToString:call.method]) {
-    result([@"iOS " stringByAppendingString:[[UIDevice currentDevice] systemVersion]]);
+  if ([@"requestReview" isEqualToString:call.method]) {
+    [SKStoreReviewController requestReview];
+    result(nil);
   } else {
     result(FlutterMethodNotImplemented);
   }
