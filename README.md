@@ -12,4 +12,4 @@ import 'package:flutter_store_review/flutter_store_review.dart';
 FlutterStoreReview.requestReview();
 ```
 
-![](demo.png)
+![](demo.jpg)

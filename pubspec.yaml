@@ -5,13 +5,13 @@ author: Ken <ken.shao@gmail.com>
 homepage: https://github.com/pedia/flutter_store_review
 
 environment:
-  sdk: ">=1.0.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  platform:
+  platform: ^2.2.0
 
 flutter:
   plugin:
