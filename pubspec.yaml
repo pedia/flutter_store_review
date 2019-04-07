@@ -1,6 +1,6 @@
 name: flutter_store_review
 description: Wrap AppStore Review API for Flutter
-version: 0.0.2
+version: 0.0.3
 author: Ken <ken.shao@gmail.com>
 homepage: https://github.com/pedia/flutter_store_review
 
