@@ -8,9 +8,16 @@ class FlutterStoreReview {
       const MethodChannel('flutter_store_review');
 
   static Future<Null> requestReview() {
-      Platform platform = new LocalPlatform();
+      Platform platform = const LocalPlatform();
       if (!platform.isIOS)
         throw UnsupportedError;
     return _channel.invokeMethod('requestReview');
+  }
+
+  static Future<Null> requestReviewLater({int seconds = 3}) {
+      Platform platform = const LocalPlatform();
+      if (!platform.isIOS)
+        throw UnsupportedError;
+    return _channel.invokeMethod('requestReviewLater');
   }
 }
